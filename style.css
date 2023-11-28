@@ -13,14 +13,6 @@
   flex-direction: column;
 }
 
-.box-3,
-.box-4,
-.box-5
-{
-  border: 2px solid red;
-  flex: 1;
-}
-
 
 .box-1{
   display: flex;
@@ -28,7 +20,7 @@
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-image: url('/halie-west-25xggax4bSA-unsplash.jpg') ;
+  background-image: url('/halie-west-25xggax4bSA-unsplash.jpg');
   background-size: cover;
 }
 
@@ -46,7 +38,13 @@
   align-self: center;
 }
 
-
+.box-3,
+.box-4,
+.box-5
+{
+  border: 2px solid red;
+  flex: 1;
+}
 
 
 
